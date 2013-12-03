@@ -2,7 +2,7 @@ html body {
 	background: url('../image/background.jpg');
 	width: 100%;
 	height: 100%;
-	font: 15px/23px 'Lucida Grande', Verdana, sans-serif;
+	font: 13px/23px 'Lucida Grande', Verdana, sans-serif;
 	color: #cccccc;
 }
 
@@ -26,14 +26,6 @@ html body {
 	text-align: center;
 }
 
-.login-input:focus {
-	background-color: #4d4d4d;
-	-webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.3), 0 0 4px 1px
-		rgba(255, 255, 255, 0.6);
-	box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.3), 0 0 4px 1px
-		rgba(255, 255, 255, 0.6);
-}
-
 input,textarea,select,label,.forgout {
 	font-family: inherit;
 	font-size: 12px;
@@ -49,7 +41,7 @@ input,textarea,select,label,.forgout {
 	padding: 0 9px;
 	color: #cccccc;
 	text-shadow: 0 1px black;
-	background: #cccccc;
+	background: transparent;
 	background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.35),
 		rgba(0, 0, 0, 0.2) 20%, rgba(0, 0, 0, 0));
 	background-image: -moz-linear-gradient(top, rgba(0, 0, 0, 0.35),
@@ -58,10 +50,6 @@ input,textarea,select,label,.forgout {
 		rgba(0, 0, 0, 0.2) 20%, rgba(0, 0, 0, 0));
 	background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.35),
 		rgba(0, 0, 0, 0.2) 20%, rgba(0, 0, 0, 0));
-	-webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.3), 0 1px
-		rgba(255, 255, 255, 0.2);
-	box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.3), 0 1px
-		rgba(255, 255, 255, 0.2);
 }
 
 .login-submit {
