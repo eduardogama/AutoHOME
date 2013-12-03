@@ -1,0 +1,74 @@
+html body {
+	background: url('../image/background.jpg');
+	width: 100%;
+	height: 100%;
+	font: 15px/23px 'Lucida Grande', Verdana, sans-serif;
+	color: #cccccc;
+}
+
+/* Pagina de Login */
+#login {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin: -170px;
+	padding: 20px;
+	width: 300px;
+	border: 1px solid #172b4e;
+	border-bottom-color: #142647;
+	-webkit-box-shadow: inset 0 1px rgba(255, 255, 255, 0.3), inset 0 0 1px
+		1px rgba(255, 255, 255, 0.1), 0 2px 10px rgba(0, 0, 0, 0.5);
+	box-shadow: inset 0 1px rgba(255, 255, 255, 0.3), inset 0 0 1px 1px
+		rgba(255, 255, 255, 0.1), 0 2px 10px rgba(0, 0, 0, 0.5);
+}
+
+#login > h1 {
+	text-align: center;
+}
+
+.login-input:focus {
+	background-color: #4d4d4d;
+	-webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.3), 0 0 4px 1px
+		rgba(255, 255, 255, 0.6);
+	box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.3), 0 0 4px 1px
+		rgba(255, 255, 255, 0.6);
+}
+
+input,textarea,select,label,.forgout {
+	font-family: inherit;
+	font-size: 12px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.login-input {
+	width: 100%;
+	height: 37px;
+	margin-bottom: 20px;
+	padding: 0 9px;
+	color: #cccccc;
+	text-shadow: 0 1px black;
+	background: #cccccc;
+	background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.35),
+		rgba(0, 0, 0, 0.2) 20%, rgba(0, 0, 0, 0));
+	background-image: -moz-linear-gradient(top, rgba(0, 0, 0, 0.35),
+		rgba(0, 0, 0, 0.2) 20%, rgba(0, 0, 0, 0));
+	background-image: -o-linear-gradient(top, rgba(0, 0, 0, 0.35),
+		rgba(0, 0, 0, 0.2) 20%, rgba(0, 0, 0, 0));
+	background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.35),
+		rgba(0, 0, 0, 0.2) 20%, rgba(0, 0, 0, 0));
+	-webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.3), 0 1px
+		rgba(255, 255, 255, 0.2);
+	box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.3), 0 1px
+		rgba(255, 255, 255, 0.2);
+}
+
+.login-submit {
+	width: 100%;
+	height: 37px;
+	font-size: 16px;
+	font-weight: bold;
+	color: #4d4d4d;
+	background: #cccccc;
+}
